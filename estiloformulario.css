@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:wght@700&family=Pacifico&display=swap');
+
+body {background-color: #F7953E;
+background-image: url(https://i.pinimg.com/originals/ac/d2/20/acd2208344780476b06dd7dc8d7fd0ec.jpg);
+background-repeat: repeat;}
+
+header {width:100vw; height:15vh;
+	background:#DBDF42;
+  background-image: url(https://us.123rf.com/450wm/summertimeau/summertimeau1707/summertimeau170700026/81625217-conjunto-de-verduras-frutas-patrones-sin-fisuras-fondos-con-coloridas-frutas-y-verduras.jpg?ver=6);
+	margin:0;
+  text-align: center;
+	letter-spacing:  0.20em;
+  font-size: 2.7vw;
+	font-family: "Pacifico";
+  font-weight: 2vw;
+  -webkit-text-stroke: 3px black;
+  color: #1AB912;}
+
+  .imagen {margin-left: 5em;}
+
+.text {
+font-family: 'Josefin Sans';
+color: white;
+text-align: center;
+font-size: 1.7vw;
+font-weight: 2em;
+font-style: normal;}
+
+.thanks {font-family: 'Josefin Sans';
+color: white;
+text-align: center;
+font-size: 1.7vw;
+font-weight: 15px;
+font-style: normal;}
+
+.nombre {
+text-align: center;
+letter-spacing:  0.10em;
+text-decoration: none;
+font-family: 'Acme';
+font-size: 2vw;
+font-weight: 1200;
+color: #237A12;
+margin: 2em;}
+
+.correo {text-align: center;
+letter-spacing:  0.10em;
+text-decoration: none;
+font-family: 'Acme';
+font-size: 2vw;
+font-weight: 1200;
+color: #237A12;
+margin:2em;}
+
+.mensaje {text-align: center;
+letter-spacing:  0.10em;
+text-decoration: none;
+font-family: 'Acme';
+font-size: 2vw;
+font-weight: 1200;
+color: #237A12;
+margin:2em;}
+
+.boton:hover{background-color: #237A12;
+color: black;}
+
+.boton {
+  display: inline-block;
+  padding: 0.8em;
+  letter-spacing:  0.10em;
+  text-decoration: none;
+	font-family: "Pacifico";
+  font-weight: 1vw;
+  font-size: 1.7vw;
+  background-color: #232E87;
+  margin-left: 25em;
+  color: black; }
+
+  #footform {padding: 6em 0em;
+       font-size: 1vw;
+       letter-spacing: 0.10em;
+       text-align: center;
+       color: white;}
+
+ #footform a	{ color: #232E87;}

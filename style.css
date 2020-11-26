@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:wght@700&family=Pacifico&display=swap');
+
+* {margin: 0.5%;}
+
+
+body {background-color: #F7953E;
+background-image: url(https://i.pinimg.com/originals/ac/d2/20/acd2208344780476b06dd7dc8d7fd0ec.jpg);
+background-repeat: repeat;}
+
+header {width:100vw; height:20vh;
+	overflow:hidden;
+	background:#DBDF42;
+  background-image: url(https://us.123rf.com/450wm/summertimeau/summertimeau1707/summertimeau170700026/81625217-conjunto-de-verduras-frutas-patrones-sin-fisuras-fondos-con-coloridas-frutas-y-verduras.jpg?ver=6);
+	margin:1px;
+  text-align: center;
+	font-family: "Pacifico";
+  font-size: 2.9vw;
+  font-weight: 350;
+  -webkit-text-stroke: 3px black;
+  color: #1AB912;}
+
+nav ul{margin: 0;
+    padding: 2em 0em 2em 0em;
+    list-style: none;
+    line-height: normal;}
+
+li{display: inline-block;}
+
+li a {display: inline-block;
+  background-color: black;
+  padding: 1em 2em;
+	width: 100vh;
+  letter-spacing: 1em;
+  text-decoration: none;
+  font-size: 0.2vw;
+  font-weight: 120;
+  color: #237A12;}
+
+	.sushi :hover {background-color: #FB3734;
+		color: black;}
+	.sushi :link {color:#F7AA53;}
+
+	.tacos :hover{background-color: #74E521;
+		color: black;}
+	.tacos :link{color:#FA6482;}
+
+	.hamburguesas :hover{background-color: #3861EC;
+		color: black;}
+	.hamburguesas :link{color: #DCEC3E;}
+
+	.chorizo :hover{background-color: #DCEC3E;
+		color: black;}
+	.chorizo :link {color: #3861EC;}
+
+	.empanadas :hover{background-color: #FA6482;
+		color: black;}
+	.empanadas :link{color:#74E521;}
+
+	.arroz :hover{background-color: #F7AA53;
+			color: black;}
+	.arroz :link {color:#FB3734;}
+
+	.title {float: center;
+font-family: "Pacifico";
+color: white;
+font-size: 2.7vw;
+text-align: center;
+font-weight: 100;
+font-style: normal;}
+
+	.introduccion {float: center;
+	font-family: 'Josefin Sans';
+	color: white;
+font-size: 1.7vw;
+	text-align: center;
+	font-weight: 15px;
+	font-style: normal;}
+
+	.title1 {float: center;
+font-family: "Pacifico";
+color: white;
+text-align: center;
+font-size: 2.7vw;
+font-weight: 100;
+font-style: normal;}
+
+	.texto1 {float: center;
+font-family: 'Josefin Sans';
+	color: white;
+	text-align: center;
+	font-size: 1.7vw;
+	font-weight: 15px;
+	font-style: normal;}
+
+	.title2{clear: both;
+	text-align: center;
+	font-family: "Pacifico";
+	color: white;
+	font-size: 2.7vw;
+	font-weight: 100;
+	font-style: normal;}
+
+	.texto1::after {content: url(https://www.migrandominio.com/wp-content/uploads/2018/10/lisa-simpson-a-punto-de-comer-carne-piensa-en-el-corderito.jpg);
+		float: none;
+		height: 100vh;
+		width: 100vw;}
+
+	.contacto {text-align: center;
+background-color: white;}
+
+section{float: center;
+	font-family: 'Josefin Sans';
+	color: white;
+	font-size: 2.5vw;
+	font-weight: 15px;
+	font-style: normal;}
+
+section ul{margin: 0;
+	    padding: 2em 0em 2em 0em;
+	    list-style: none;
+	    line-height: normal;}
+
+li{display: inline-block; }
+
+ li a {display: inline-block;
+		   background-color: black;
+		   padding: 20px;
+		 	width: 100%;
+		   letter-spacing: 8px;
+		   text-decoration: none;
+			 font-family: 'Acme';
+		font-size: 2.5vw;
+		   font-weight: 1200;
+		   color: #237A12;}
+
+	.oveggie :hover {background-color: red;
+	color: black;}
+	.oveggie :visited{background-color: #F56342;
+	color: black;}
+
+	.lveggie :hover{background-color: #3FAA1A;
+	color: black;}
+	.lveggie :visited{background-color: #F5EA42;
+			color: black;}
+
+	.sveggie :hover{background-color: blue;
+	color: black;}
+	.sveggie :visited{background-color: #65F542;
+		color: black;}
+
+	.fveggie :hover{background-color: yellow;
+		color: black;}
+	.fveggie :visited {background-color: #42B4F5;
+	color: black;}
+
+	.pveggie :hover{background-color: white;
+			color: black;}
+	.pveggie :visited {background-color: #5842F5;
+	color: black;}
+
+	.vegan :hover{background-color: brown;
+	color: black;}
+	.vegan :visited {background-color: #A142F5;
+	color: black;}
+
+.imagen {clear: both;
+height: 100vh;
+width: 100vh;}
+
+ .bef::before {content: url(https://i.pinimg.com/originals/c8/c2/a3/c8c2a39b4b8bb5b45339d6152d75d53d.gif);
+ float: inherit;
+ height: 100vh;
+ width: 100vw;}
+
+#footer{clear: both;
+	padding: 6em 2em 4em 2em;
+		background: black;
+		border-bottom: 2px solid #237A12;
+		border-top: 2px solid #237A12;}
+
+	#footer1 {text-align: center;
+		overflow: hidden;
+		color: white;}
+
+	#footer h2
+	{letter-spacing: 0.10em;
+		padding-bottom: 1em;
+		font-family: 'Acme';
+		font-size: 1.3em;
+		font-weight: 700;
+		color: #237A12;}
+
+	#footer #f1 {float: left;
+		font-family: 'Josefin Sans';
+		width: 282px;
+		height: 300px;
+		margin-right: 1em;}
+
+	#footer #f2 {float: left;
+		font-family: 'Josefin Sans';
+		width: 282px;
+		height: 300px;
+		margin-right: 1em;}
+
+	#footer #f3 {float: left;
+		font-family: 'Josefin Sans';
+		height: 350px;
+		width: 282px;}
+
+	#footer #f4 {float: left;
+		font-family: 'Josefin Sans';
+		height: 300px;
+		width: 282px;}
+
+.button:hover{background-color: #232E87;
+color: black;}
+
+.button :active { color:#0B3D73;}
+
+	.button{display: inline-block;
+		padding: 1em 3em 1em 3em;
+		letter-spacing: 0.10em;
+		text-decoration: none;
+		font-weight: 800;
+		font-family: 'Acme';
+		font-size: 1em;
+		color: #237A12;}
+
+	 #foot {clear: both;
+		 padding: 6em 0em;
+				font-size: 1em;
+				font-family: 'Josefin Sans';
+				letter-spacing: 0.30em;
+				text-align: center;
+				color: white;}
+
+	#foot a	{ color: #232E87;}
